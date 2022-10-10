@@ -1,0 +1,12 @@
+.results {
+    border: 2px, solid, black;
+}
+
+.calculator-grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5,100px);
+}
