@@ -14,6 +14,12 @@ h1 {
     justify-content: center;
 }
 
+.screenandgrid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .results {
     border: 2px, solid, black;
     border-radius: 5px;
@@ -21,7 +27,8 @@ h1 {
     display: flex;
     justify-content: center;
     font-size: 2rem;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width: 400px;
 }
 
 .calculator-grid {
@@ -45,4 +52,20 @@ h1 {
 
 .calculator-grid > button:hover {
     background-color: #a9a9a9;
+}
+
+.equal {
+    background-color: greenyellow;
+}
+
+.delete {
+    background-color: yellow;
+}
+
+.clear {
+    background-color: yellow;
+}
+
+.number {
+    background-color: lightskyblue;
 }

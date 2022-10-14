@@ -16,7 +16,7 @@ btns.map( button => {
         console.log(e.target.innerText);
         switch(e.target.innerText){
             case 'AC':
-                display.innerText = '0';
+                display.innerText = '';
                 break;
             case '=':
                 try{
