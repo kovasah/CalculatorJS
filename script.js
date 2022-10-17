@@ -1,19 +1,9 @@
 let btns = Array.from(document.querySelectorAll('button'));
-console.log(btns);
+
 let display = document.querySelector(".results");
-
-
-// function display() {
-//     btns.forEach(button => {
-//         content.textContent = 'hello'
-//     });
-// }
-
-// btns.addEventListener("click", display);
 
 btns.map( button => {
     button.addEventListener('click', (e) => {
-        console.log(e.target.innerText);
         switch(e.target.innerText){
             case 'AC':
                 display.innerText = '';
